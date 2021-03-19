@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Clean.Architecture.Core.Entities;
-using Clean.Architecture.Core.Specifications;
+using CleanArchitecture.Entities.Specifications;
 using Xunit;
 
 namespace Clean.Architecture.UnitTests.Core.Specifications

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Ardalis.Result;
 using Clean.Architecture.Core.Entities;
-using Clean.Architecture.Core.Interfaces;
-using Clean.Architecture.Core.Specifications;
-using Clean.Architecture.SharedKernel.Interfaces;
+using CleanArchitecture.ApplicationServices.Interfaces;
+using CleanArchitecture.Entities.Specifications;
+using CleanArchitecture.Infrastructure.Interfaces;
 
 namespace Clean.Architecture.Core.Services
 {

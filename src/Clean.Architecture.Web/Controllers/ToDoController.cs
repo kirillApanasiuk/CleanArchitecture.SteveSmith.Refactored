@@ -2,8 +2,10 @@
 using System.Threading.Tasks;
 using Clean.Architecture.Core;
 using Clean.Architecture.Core.Entities;
+using Clean.Architecture.Infrastructure;
 using Clean.Architecture.SharedKernel.Interfaces;
 using Clean.Architecture.Web.ApiModels;
+using CleanArchitecture.Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Clean.Architecture.Web.Controllers
@@ -19,9 +21,8 @@ namespace Clean.Architecture.Web.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var items = (await _repository.ListAsync<ToDoItem>())
-                            .Select(ToDoItemDTO.FromToDoItem);
-            return View(items);
+            var items = (await _repository.ListAsync<ToDoItem>());
+            return View(null);
         }
 
         public IActionResult Populate()

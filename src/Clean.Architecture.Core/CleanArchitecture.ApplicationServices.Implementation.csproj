@@ -13,7 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Clean.Architecture.SharedKernel\Clean.Architecture.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\CleanArchitecture.ApplicationServices.Interfaces\CleanArchitecture.ApplicationServices.Interfaces.csproj" />
+    <ProjectReference Include="..\..\CleanArchitecture.Entities\CleanArchitecture.Entities.csproj" />
+    <ProjectReference Include="..\..\CleanArchitecture.Interfaces\CleanArchitecture.Infrastructure.Interfaces.csproj" />
+    <ProjectReference Include="..\Clean.Architecture.SharedKernel\Clean.Architecture.Entities.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>

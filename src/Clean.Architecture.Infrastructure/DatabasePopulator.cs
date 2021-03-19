@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using Clean.Architecture.Core.Entities;
-using Clean.Architecture.SharedKernel.Interfaces;
+using CleanArchitecture.Infrastructure.Interfaces;
 
-namespace Clean.Architecture.Core
+namespace Clean.Architecture.Infrastructure
 {
     public static class DatabasePopulator
     {

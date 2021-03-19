@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Clean.Architecture.Core.Entities;
 using Clean.Architecture.Core.Events;
 using Clean.Architecture.Core.Handlers;
-using Clean.Architecture.Core.Interfaces;
+using CleanArchitecture.Infrastructure.Interfaces;
 using Moq;
 using Xunit;
 

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Clean.Architecture.Core.Entities;
-using Clean.Architecture.Core.Specifications;
-using Clean.Architecture.SharedKernel.Interfaces;
+using CleanArchitecture.Entities.Specifications;
+using CleanArchitecture.Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Clean.Architecture.Web.Pages.ToDoRazorPage

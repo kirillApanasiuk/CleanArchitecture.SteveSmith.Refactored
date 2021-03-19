@@ -1,6 +1,6 @@
 ﻿using System.Net.Mail;
 using System.Threading.Tasks;
-using Clean.Architecture.Core.Interfaces;
+using CleanArchitecture.Infrastructure.Interfaces;
 using Microsoft.Extensions.Logging;
 
 namespace Clean.Architecture.Infrastructure

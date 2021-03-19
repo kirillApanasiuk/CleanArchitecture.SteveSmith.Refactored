@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Ardalis.GuardClauses;
 using Clean.Architecture.Core.Events;
-using Clean.Architecture.Core.Interfaces;
+using CleanArchitecture.Infrastructure.Interfaces;
 using MediatR;
 
 namespace Clean.Architecture.Core.Handlers

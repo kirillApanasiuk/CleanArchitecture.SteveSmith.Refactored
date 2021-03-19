@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Ardalis.Result;
 using Clean.Architecture.Core.Entities;
 
-namespace Clean.Architecture.Core.Interfaces
+namespace CleanArchitecture.ApplicationServices.Interfaces
 {
     public interface IToDoItemSearchService
     {

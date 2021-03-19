@@ -1,7 +1,7 @@
 ﻿using Ardalis.Specification;
 using Clean.Architecture.Core.Entities;
 
-namespace Clean.Architecture.Core.Specifications
+namespace CleanArchitecture.Entities.Specifications
 {
     public class IncompleteItemsSpecification : Specification<ToDoItem>
     {

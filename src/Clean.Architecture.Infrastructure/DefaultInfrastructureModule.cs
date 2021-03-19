@@ -1,10 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
 using Autofac;
-using Clean.Architecture.Core;
-using Clean.Architecture.Core.Interfaces;
 using Clean.Architecture.Infrastructure.Data;
-using Clean.Architecture.SharedKernel.Interfaces;
+using CleanArchitecture.Infrastructure.Interfaces;
 using MediatR;
 using MediatR.Pipeline;
 using Module = Autofac.Module;

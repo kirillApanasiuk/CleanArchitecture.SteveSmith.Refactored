@@ -2,6 +2,10 @@
 using Ardalis.ListStartupServices;
 using Autofac;
 using Clean.Architecture.Infrastructure;
+using CleanArchitecture.Infrastructure.Interfaces;
+using CleanArchitecture.UseCases.ToDoItem.Queries.GetToDoItemById;
+using CleanArchitecture.UseCases.Utils;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -52,7 +56,11 @@ namespace Clean.Architecture.Web
 				// optional - default path to view services is /listallservices - recommended to choose your own path
 				config.Path = "/listservices";
 			});
-		}
+
+            services.AddScoped<IEmailSender,EmailSender>();
+            services.AddMediatR(typeof(GetToDoItemByIdQuery));
+            services.AddAutoMapper(typeof(ToDoItemMappingProfile));
+        }
 
 		public void ConfigureContainer(ContainerBuilder builder)
 		{

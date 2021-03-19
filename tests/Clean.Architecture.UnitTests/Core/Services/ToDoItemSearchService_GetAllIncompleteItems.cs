@@ -4,6 +4,7 @@ using Ardalis.Specification;
 using Clean.Architecture.Core.Entities;
 using Clean.Architecture.Core.Services;
 using Clean.Architecture.SharedKernel.Interfaces;
+using CleanArchitecture.Infrastructure.Interfaces;
 using Moq;
 using Xunit;
 

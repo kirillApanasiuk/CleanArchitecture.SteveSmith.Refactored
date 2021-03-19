@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Ardalis.Specification;
+using Clean.Architecture.SharedKernel;
+using Clean.Architecture.SharedKernel.Interfaces;
 
-namespace Clean.Architecture.SharedKernel.Interfaces
+namespace CleanArchitecture.Infrastructure.Interfaces
 {
     public interface IRepository
     {

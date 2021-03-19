@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Ardalis.ApiEndpoints;
 using Clean.Architecture.Core.Entities;
 using Clean.Architecture.SharedKernel.Interfaces;
+using CleanArchitecture.Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
